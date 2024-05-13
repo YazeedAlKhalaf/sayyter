@@ -8,17 +8,17 @@
 import SwiftUI
 
 struct BackgroundView<Content: View>: View {
-    let content: Content
     let layout: LayoutOption
+    let content: Content
     
     enum LayoutOption {
         case vertical
         case horizontal
     }
     
-    init(@ViewBuilder content: () -> Content, layout: LayoutOption = .vertical) {
-        self.content = content()
+    init(layout: LayoutOption = .vertical, @ViewBuilder content: () -> Content) {
         self.layout = layout
+        self.content = content()
     }
     
     var body: some View {

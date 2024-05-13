@@ -9,9 +9,9 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        BackgroundView {
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-            Text("Ahmad")
+        BackgroundView(layout: .vertical) {
+            Text("Hello World 1")
+            Text("Hello World 2")
         }
     }
 }
