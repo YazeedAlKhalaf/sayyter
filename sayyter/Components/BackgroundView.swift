@@ -29,6 +29,7 @@ struct BackgroundView<Content: View>: View {
             layoutView
         }
         .preferredColorScheme(.dark)
+        .tint(.isabelline)
     }
     
     private var layoutView: some View {

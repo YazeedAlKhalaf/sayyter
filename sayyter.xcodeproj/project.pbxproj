@@ -12,6 +12,24 @@
 		0516D5382BF25E91001062D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0516D5372BF25E91001062D2 /* Preview Assets.xcassets */; };
 		0516D5482BF264A3001062D2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0516D5472BF264A3001062D2 /* HomeView.swift */; };
 		0516D5502BF269B8001062D2 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0516D54F2BF269B8001062D2 /* BackgroundView.swift */; };
+		0516D5522BF26C44001062D2 /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0516D5512BF26C44001062D2 /* IconButton.swift */; };
+		0516D5552BF26FD0001062D2 /* SFSafeSymbols in Frameworks */ = {isa = PBXBuildFile; productRef = 0516D5542BF26FD0001062D2 /* SFSafeSymbols */; };
+		0516D55E2BF28740001062D2 /* SpaceGrotesk-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0516D5592BF28740001062D2 /* SpaceGrotesk-Regular.ttf */; };
+		0516D5602BF28740001062D2 /* SpaceGrotesk-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0516D55B2BF28740001062D2 /* SpaceGrotesk-SemiBold.ttf */; };
+		0516D56C2BF2964F001062D2 /* MyFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0516D56B2BF2964F001062D2 /* MyFonts.swift */; };
+		0516D56E2BF29971001062D2 /* IconTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0516D56D2BF29971001062D2 /* IconTextButton.swift */; };
+		0516D5702BF2A99E001062D2 /* CardComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0516D56F2BF2A99E001062D2 /* CardComponent.swift */; };
+		0516D5732BF2BE70001062D2 /* HomeTransactionSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0516D5722BF2BE70001062D2 /* HomeTransactionSection.swift */; };
+		0516D5772BF2BE8E001062D2 /* HomeHeaderSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0516D5762BF2BE8E001062D2 /* HomeHeaderSection.swift */; };
+		0516D5792BF2BEA6001062D2 /* HomeCardActionsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0516D5782BF2BEA6001062D2 /* HomeCardActionsSection.swift */; };
+		0516D57B2BF2BEF3001062D2 /* HomeCardCarouselSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0516D57A2BF2BEF3001062D2 /* HomeCardCarouselSection.swift */; };
+		0516D57D2BF2BFEE001062D2 /* HomeCardsHeaderSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0516D57C2BF2BFEE001062D2 /* HomeCardsHeaderSection.swift */; };
+		0516D57F2BF2C067001062D2 /* TransactionTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0516D57E2BF2C067001062D2 /* TransactionTile.swift */; };
+		0516D5812BF2C1D5001062D2 /* HomeTransactionHeaderSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0516D5802BF2C1D5001062D2 /* HomeTransactionHeaderSection.swift */; };
+		0516D5842BF2C2B2001062D2 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0516D5832BF2C2B2001062D2 /* Transaction.swift */; };
+		0516D5862BF2C2F3001062D2 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0516D5852BF2C2F3001062D2 /* Card.swift */; };
+		0516D5882BF2C42A001062D2 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0516D5872BF2C42A001062D2 /* Currency.swift */; };
+		0516D58A2BF2CE64001062D2 /* GradientBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0516D5892BF2CE64001062D2 /* GradientBlurView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,8 +37,26 @@
 		0516D5302BF25E8F001062D2 /* sayyterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sayyterApp.swift; sourceTree = "<group>"; };
 		0516D5342BF25E91001062D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0516D5372BF25E91001062D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		0516D5472BF264A3001062D2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = Sayyter/Views/HomeView.swift; sourceTree = SOURCE_ROOT; };
+		0516D5472BF264A3001062D2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = sayyter/Views/Home/HomeView.swift; sourceTree = SOURCE_ROOT; };
 		0516D54F2BF269B8001062D2 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BackgroundView.swift; path = Sayyter/Components/BackgroundView.swift; sourceTree = SOURCE_ROOT; };
+		0516D5512BF26C44001062D2 /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IconButton.swift; path = Sayyter/Components/IconButton.swift; sourceTree = SOURCE_ROOT; };
+		0516D5592BF28740001062D2 /* SpaceGrotesk-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-Regular.ttf"; sourceTree = "<group>"; };
+		0516D55B2BF28740001062D2 /* SpaceGrotesk-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-SemiBold.ttf"; sourceTree = "<group>"; };
+		0516D5612BF28789001062D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0516D56B2BF2964F001062D2 /* MyFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MyFonts.swift; path = Sayyter/Fonts/MyFonts.swift; sourceTree = SOURCE_ROOT; };
+		0516D56D2BF29971001062D2 /* IconTextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IconTextButton.swift; path = Sayyter/Components/IconTextButton.swift; sourceTree = SOURCE_ROOT; };
+		0516D56F2BF2A99E001062D2 /* CardComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CardComponent.swift; path = Sayyter/Components/CardComponent.swift; sourceTree = SOURCE_ROOT; };
+		0516D5722BF2BE70001062D2 /* HomeTransactionSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeTransactionSection.swift; path = Sayyter/Views/Home/HomeTransactionSection.swift; sourceTree = SOURCE_ROOT; };
+		0516D5762BF2BE8E001062D2 /* HomeHeaderSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeHeaderSection.swift; path = Sayyter/Views/Home/HomeHeaderSection.swift; sourceTree = SOURCE_ROOT; };
+		0516D5782BF2BEA6001062D2 /* HomeCardActionsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeCardActionsSection.swift; path = Sayyter/Views/Home/HomeCardActionsSection.swift; sourceTree = SOURCE_ROOT; };
+		0516D57A2BF2BEF3001062D2 /* HomeCardCarouselSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeCardCarouselSection.swift; path = Sayyter/Views/Home/HomeCardCarouselSection.swift; sourceTree = SOURCE_ROOT; };
+		0516D57C2BF2BFEE001062D2 /* HomeCardsHeaderSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeCardsHeaderSection.swift; path = Sayyter/Views/Home/HomeCardsHeaderSection.swift; sourceTree = SOURCE_ROOT; };
+		0516D57E2BF2C067001062D2 /* TransactionTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TransactionTile.swift; path = Sayyter/Components/TransactionTile.swift; sourceTree = SOURCE_ROOT; };
+		0516D5802BF2C1D5001062D2 /* HomeTransactionHeaderSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeTransactionHeaderSection.swift; path = Sayyter/Views/Home/HomeTransactionHeaderSection.swift; sourceTree = SOURCE_ROOT; };
+		0516D5832BF2C2B2001062D2 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Transaction.swift; path = Sayyter/Models/Transaction.swift; sourceTree = SOURCE_ROOT; };
+		0516D5852BF2C2F3001062D2 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Card.swift; path = Sayyter/Models/Card.swift; sourceTree = SOURCE_ROOT; };
+		0516D5872BF2C42A001062D2 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Currency.swift; path = Sayyter/Models/Currency.swift; sourceTree = SOURCE_ROOT; };
+		0516D5892BF2CE64001062D2 /* GradientBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GradientBlurView.swift; path = Sayyter/Components/GradientBlurView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0516D5552BF26FD0001062D2 /* SFSafeSymbols in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +90,9 @@
 		0516D52F2BF25E8F001062D2 /* sayyter */ = {
 			isa = PBXGroup;
 			children = (
+				0516D5612BF28789001062D2 /* Info.plist */,
+				0516D5562BF28713001062D2 /* Fonts */,
+				0516D5822BF2C2A0001062D2 /* Models */,
 				0516D54E2BF269A7001062D2 /* Components */,
 				0516D5462BF26497001062D2 /* Views */,
 				0516D5302BF25E8F001062D2 /* sayyterApp.swift */,
@@ -73,7 +113,7 @@
 		0516D5462BF26497001062D2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				0516D5472BF264A3001062D2 /* HomeView.swift */,
+				0516D5712BF2BE55001062D2 /* Home */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -82,8 +122,47 @@
 			isa = PBXGroup;
 			children = (
 				0516D54F2BF269B8001062D2 /* BackgroundView.swift */,
+				0516D5512BF26C44001062D2 /* IconButton.swift */,
+				0516D56D2BF29971001062D2 /* IconTextButton.swift */,
+				0516D56F2BF2A99E001062D2 /* CardComponent.swift */,
+				0516D57E2BF2C067001062D2 /* TransactionTile.swift */,
+				0516D5892BF2CE64001062D2 /* GradientBlurView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		0516D5562BF28713001062D2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0516D5592BF28740001062D2 /* SpaceGrotesk-Regular.ttf */,
+				0516D55B2BF28740001062D2 /* SpaceGrotesk-SemiBold.ttf */,
+				0516D56B2BF2964F001062D2 /* MyFonts.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		0516D5712BF2BE55001062D2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0516D5472BF264A3001062D2 /* HomeView.swift */,
+				0516D5762BF2BE8E001062D2 /* HomeHeaderSection.swift */,
+				0516D57C2BF2BFEE001062D2 /* HomeCardsHeaderSection.swift */,
+				0516D57A2BF2BEF3001062D2 /* HomeCardCarouselSection.swift */,
+				0516D5782BF2BEA6001062D2 /* HomeCardActionsSection.swift */,
+				0516D5802BF2C1D5001062D2 /* HomeTransactionHeaderSection.swift */,
+				0516D5722BF2BE70001062D2 /* HomeTransactionSection.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0516D5822BF2C2A0001062D2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0516D5832BF2C2B2001062D2 /* Transaction.swift */,
+				0516D5852BF2C2F3001062D2 /* Card.swift */,
+				0516D5872BF2C42A001062D2 /* Currency.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,6 +181,9 @@
 			dependencies = (
 			);
 			name = sayyter;
+			packageProductDependencies = (
+				0516D5542BF26FD0001062D2 /* SFSafeSymbols */,
+			);
 			productName = sayyter;
 			productReference = 0516D52D2BF25E8F001062D2 /* sayyter.app */;
 			productType = "com.apple.product-type.application";
@@ -130,6 +212,9 @@
 				Base,
 			);
 			mainGroup = 0516D5242BF25E8F001062D2;
+			packageReferences = (
+				0516D5532BF26FD0001062D2 /* XCRemoteSwiftPackageReference "SFSafeSymbols" */,
+			);
 			productRefGroup = 0516D52E2BF25E8F001062D2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -146,6 +231,8 @@
 			files = (
 				0516D5382BF25E91001062D2 /* Preview Assets.xcassets in Resources */,
 				0516D5352BF25E91001062D2 /* Assets.xcassets in Resources */,
+				0516D5602BF28740001062D2 /* SpaceGrotesk-SemiBold.ttf in Resources */,
+				0516D55E2BF28740001062D2 /* SpaceGrotesk-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,9 +243,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0516D5812BF2C1D5001062D2 /* HomeTransactionHeaderSection.swift in Sources */,
+				0516D5522BF26C44001062D2 /* IconButton.swift in Sources */,
+				0516D56E2BF29971001062D2 /* IconTextButton.swift in Sources */,
+				0516D5792BF2BEA6001062D2 /* HomeCardActionsSection.swift in Sources */,
+				0516D5702BF2A99E001062D2 /* CardComponent.swift in Sources */,
+				0516D58A2BF2CE64001062D2 /* GradientBlurView.swift in Sources */,
+				0516D5732BF2BE70001062D2 /* HomeTransactionSection.swift in Sources */,
+				0516D57B2BF2BEF3001062D2 /* HomeCardCarouselSection.swift in Sources */,
+				0516D5772BF2BE8E001062D2 /* HomeHeaderSection.swift in Sources */,
+				0516D56C2BF2964F001062D2 /* MyFonts.swift in Sources */,
 				0516D5502BF269B8001062D2 /* BackgroundView.swift in Sources */,
 				0516D5482BF264A3001062D2 /* HomeView.swift in Sources */,
+				0516D57F2BF2C067001062D2 /* TransactionTile.swift in Sources */,
 				0516D5312BF25E8F001062D2 /* sayyterApp.swift in Sources */,
+				0516D5882BF2C42A001062D2 /* Currency.swift in Sources */,
+				0516D57D2BF2BFEE001062D2 /* HomeCardsHeaderSection.swift in Sources */,
+				0516D5842BF2C2B2001062D2 /* Transaction.swift in Sources */,
+				0516D5862BF2C2F3001062D2 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +397,7 @@
 				DEVELOPMENT_TEAM = JL46C549NC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = sayyter/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -324,6 +427,7 @@
 				DEVELOPMENT_TEAM = JL46C549NC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = sayyter/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -364,6 +468,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0516D5532BF26FD0001062D2 /* XCRemoteSwiftPackageReference "SFSafeSymbols" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SFSafeSymbols/SFSafeSymbols";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0516D5542BF26FD0001062D2 /* SFSafeSymbols */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0516D5532BF26FD0001062D2 /* XCRemoteSwiftPackageReference "SFSafeSymbols" */;
+			productName = SFSafeSymbols;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0516D5252BF25E8F001062D2 /* Project object */;
 }
