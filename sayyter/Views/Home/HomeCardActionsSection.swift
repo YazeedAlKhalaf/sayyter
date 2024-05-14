@@ -11,7 +11,7 @@ import SFSafeSymbols
 struct HomeCardActionsSection: View {
     var body: some View {
         HStack(spacing: 8) {
-            IconTextButton(systemSymbol: SFSymbol.bSquareFill, text: "Payments") {
+            IconTextButton(systemSymbol: SFSymbol.plusApp, text: "Top Up") {
                 print("payments clicked")
             }
             .frame(maxWidth: .infinity)

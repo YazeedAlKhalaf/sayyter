@@ -20,7 +20,7 @@ struct GradientBlurView: View {
                     .frame(height: geometry.safeAreaInsets.top)
                 )
                 .frame(height: geometry.safeAreaInsets.top)
-                .edgesIgnoringSafeArea(.top)
+                .ignoresSafeArea()
         }
     }
 }

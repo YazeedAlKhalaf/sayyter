@@ -74,6 +74,7 @@ struct HomeView: View {
             }
         }
         .safeAreaPadding(.vertical, 24)
+        
     }
 }
 

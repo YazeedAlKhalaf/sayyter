@@ -58,6 +58,7 @@ struct CardComponent: View {
             .padding()
             .foregroundColor(card.bgColor.contrastingTextColor())
         }
+        .aspectRatio(1.8, contentMode: .fit)
         .frame(height: 220)
         .cornerRadius(32)
     }

@@ -46,9 +46,11 @@ struct TransactionTile: View {
                 VStack(alignment: .leading) {
                     Text(transaction.title)
                         .font(MyFonts.body)
+                        .lineLimit(1)
                     Text(formattedDate(transaction.date))
                         .font(MyFonts.caption)
                         .foregroundStyle(.gray)
+                        .lineLimit(1)
                 }
                 
                 Spacer()

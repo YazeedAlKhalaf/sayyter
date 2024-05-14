@@ -18,7 +18,6 @@ struct HomeCardCarouselSection: View {
         TabView {
             ForEach(cards.indices, id: \.self) { index in
                 CardComponent(card: cards[index])
-                    .frame(width: UIScreen.main.bounds.size.width - 48)
                     .padding(.horizontal, 24)
             }
         }
