@@ -16,13 +16,15 @@ let cards: [Card] = [
         balance: 1052415,
         currency: sarCurrency,
         last4Digits: "9124",
-        cardholderName: "Carl Sanders"
+        cardholderName: "Carl Sanders",
+        bgColor: .maize
     ),
     Card(
         balance: 30068,
         currency: usdCurrency,
         last4Digits: "7315",
-        cardholderName: "Carl Sanders"
+        cardholderName: "Carl Sanders",
+        bgColor: .jet
     )
 ]
 let recentTransactions: [Transaction] = [

@@ -30,6 +30,7 @@
 		0516D5862BF2C2F3001062D2 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0516D5852BF2C2F3001062D2 /* Card.swift */; };
 		0516D5882BF2C42A001062D2 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0516D5872BF2C42A001062D2 /* Currency.swift */; };
 		0516D58A2BF2CE64001062D2 /* GradientBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0516D5892BF2CE64001062D2 /* GradientBlurView.swift */; };
+		0516D5922BF36398001062D2 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0516D5912BF36398001062D2 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		0516D5852BF2C2F3001062D2 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Card.swift; path = Sayyter/Models/Card.swift; sourceTree = SOURCE_ROOT; };
 		0516D5872BF2C42A001062D2 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Currency.swift; path = Sayyter/Models/Currency.swift; sourceTree = SOURCE_ROOT; };
 		0516D5892BF2CE64001062D2 /* GradientBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GradientBlurView.swift; path = Sayyter/Components/GradientBlurView.swift; sourceTree = SOURCE_ROOT; };
+		0516D5912BF36398001062D2 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Color.swift; path = Sayyter/Extensions/Color.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		0516D52F2BF25E8F001062D2 /* sayyter */ = {
 			isa = PBXGroup;
 			children = (
+				0516D5902BF36383001062D2 /* Extensions */,
 				0516D5612BF28789001062D2 /* Info.plist */,
 				0516D5562BF28713001062D2 /* Fonts */,
 				0516D5822BF2C2A0001062D2 /* Models */,
@@ -163,6 +166,14 @@
 				0516D5872BF2C42A001062D2 /* Currency.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		0516D5902BF36383001062D2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0516D5912BF36398001062D2 /* Color.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,6 +265,7 @@
 				0516D5772BF2BE8E001062D2 /* HomeHeaderSection.swift in Sources */,
 				0516D56C2BF2964F001062D2 /* MyFonts.swift in Sources */,
 				0516D5502BF269B8001062D2 /* BackgroundView.swift in Sources */,
+				0516D5922BF36398001062D2 /* Color.swift in Sources */,
 				0516D5482BF264A3001062D2 /* HomeView.swift in Sources */,
 				0516D57F2BF2C067001062D2 /* TransactionTile.swift in Sources */,
 				0516D5312BF25E8F001062D2 /* sayyterApp.swift in Sources */,

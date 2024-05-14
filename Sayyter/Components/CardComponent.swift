@@ -16,7 +16,7 @@ struct CardComponent: View {
     
     var body: some View {
         ZStack {
-            Color.maize
+            card.bgColor
             
             VStack(alignment: .leading) {
                 Spacer()
@@ -56,7 +56,7 @@ struct CardComponent: View {
             }
             .frame(height: 200)
             .padding()
-            .foregroundColor(.night)
+            .foregroundColor(card.bgColor.contrastingTextColor())
         }
         .frame(height: 220)
         .cornerRadius(32)
@@ -70,7 +70,8 @@ struct CardComponent: View {
                 balance: 134583,
                 currency: Currency(code: .SAR),
                 last4Digits: "1342",
-                cardholderName: "Yazeed AlKhalaf"
+                cardholderName: "Yazeed AlKhalaf",
+                bgColor: .jet
             )
         )
         .padding()
