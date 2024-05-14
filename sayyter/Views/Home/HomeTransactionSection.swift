@@ -20,7 +20,9 @@ struct HomeTransactionSection: View {
                 VStack {
                     TransactionTile(
                         transaction: transactions[index]
-                    )
+                    ) {
+                        print("\(transactions[index].title) tile clicked!")
+                    }
                     if index + 1 <= transactions.count - 1 {
                         Divider()
                     }

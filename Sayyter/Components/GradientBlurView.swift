@@ -39,5 +39,7 @@ struct BlurView: UIViewRepresentable {
 }
 
 #Preview {
-    GradientBlurView()
+    BackgroundView {
+        GradientBlurView()
+    }
 }
