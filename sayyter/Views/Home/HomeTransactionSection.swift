@@ -17,9 +17,14 @@ struct HomeTransactionSection: View {
     var body: some View {
         VStack {
             ForEach(transactions.indices, id: \.self) { index in
-                TransactionTile(
-                    transaction: transactions[index]
-                )
+                VStack {
+                    TransactionTile(
+                        transaction: transactions[index]
+                    )
+                    if index + 1 <= transactions.count - 1 {
+                        Divider()
+                    }
+                }
             }
         }
     }
